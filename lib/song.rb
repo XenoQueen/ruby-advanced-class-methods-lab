@@ -26,5 +26,5 @@ class Song
     song.name = name
     @@all << song
     song
-  end8
+  end
 end
