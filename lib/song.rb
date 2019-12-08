@@ -32,6 +32,6 @@ class Song
     @@all.find{|x| x.name == name}
   end
   
-  def find_create_by_name(name)
+  def find_or_create_by_name(name)
     
 end
