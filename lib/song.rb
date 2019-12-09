@@ -11,13 +11,13 @@ class Song
     self.class.all << self
   end
 
-  def self.create #class constructor
+  def self.create 
     song = self.new
     self.all << song
     song
   end
 
-  def self.new_by_name(title) #class constructor
+  def self.new_by_name(title)
     song = self.new
     song.name = title
     song
